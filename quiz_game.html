@@ -1,0 +1,36 @@
+<title>
+    Math quiz game
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="quiz_game.css">
+<script src="quiz_game.js"></script>
+<body class="body_background">
+    <h4 id="player_1"></h4><span id="player_1_score"></span>
+    <h4 id="player_2"></h4><span id="player_2_score"></span>
+    <br><br>
+    <center>
+        <h2 style="color: white;">MATH QUIZ</h2>
+        <h3 id="player_question">QUESTION TURN : </h3><span id="player_Q_turn"></span>
+		<h3 id="player_answer">ANSWER TURN : </h3><span id="player_A_turn"></span>
+        <div id="output" class="col-lg-6"></div>
+        <br>
+		<br>
+		<h3 style = "font-size: large;"></h3>
+            <br>  <br>  <br>
+            <h4>Number 1</h4>      
+		<input id="num_1"type="text" class="form-control" placeholder="type the first number" style="width: 30%;">
+        <br><br>
+        <h4>Number 2</h4>
+        <input id="num_2" type="text" class="form-control" placeholder="type the second number" style = "width: 30%;">
+
+        <br>
+        <br>
+        <button class="btn btn-success" onclick="send()">SEND</button>
+        
+
+    </center>
+</body>
